@@ -17,9 +17,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      # - name: Install dependencies
-      #   run: |
-      #     pip install --upgrade pip
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests
 
       - name: Run update_logos.py
         run: |
