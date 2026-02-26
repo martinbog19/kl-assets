@@ -25,9 +25,12 @@ jobs:
           pip install --upgrade pip
           pip install requests
 
-      - name: Run update_logos.py
+      - name: Run script to update logos
         run: |
           python update_logos.py
+
+      - name: Commit and push changes
+        run: |
           if git status --porcelain | grep -q graphics/logos; then
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
