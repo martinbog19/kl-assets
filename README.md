@@ -1,12 +1,32 @@
 <!-- NBA FACES START -->
-![](graphics/faces/nba/ORL/4277847_wendell_carter_jr.png)
-![](graphics/faces/nba/PHI/3064230_cameron_payne.png)
-![](graphics/faces/nba/IND/5157066_johnny_furphy.png)
-![](graphics/faces/nba/POR/4683021_deni_avdija.png)
-![](graphics/faces/nba/CLE/4701233_craig_porter_jr.png)
-![](graphics/faces/nba/SAS/4395630_devin_vassell.png)
-![](graphics/faces/nba/NOP/4397688_trey_murphy_iii.png)
-![](graphics/faces/nba/OKC/4683778_jared_mccain.png)
-![](graphics/faces/nba/OKC/4222252_isaiah_hartenstein.png)
-![](graphics/faces/nba/BRK/4278104_michael_porter_jr.png)
+<img src="graphics/faces/nba/ATL/4279118_keaton_wallace.png" height="60" />
+<img src="graphics/faces/nba/BOS/4277951_luka_garza.png" height="60" />
+<img src="graphics/faces/nba/BRK/4432194_day_ron_sharpe.png" height="60" />
+<img src="graphics/faces/nba/CHI/4066650_zach_collins.png" height="60" />
+<img src="graphics/faces/nba/CHO/4432819_tre_mann.png" height="60" />
+<img src="graphics/faces/nba/CLE/3934723_thomas_bryant.png" height="60" />
+<img src="graphics/faces/nba/DAL/4278078_p_j_washington.png" height="60" />
+<img src="graphics/faces/nba/DEN/6477_jonas_valanciunas.png" height="60" />
+<img src="graphics/faces/nba/DET/4592187_wendell_moore_jr.png" height="60" />
+<img src="graphics/faces/nba/GSW/3975_stephen_curry.png" height="60" />
+<img src="graphics/faces/nba/HOU/2991235_steven_adams.png" height="60" />
+<img src="graphics/faces/nba/IND/4592829_quenton_jackson.png" height="60" />
+<img src="graphics/faces/nba/LAC/4432170_isaiah_jackson.png" height="60" />
+<img src="graphics/faces/nba/LAL/4066457_austin_reaves.png" height="60" />
+<img src="graphics/faces/nba/MEM/5099752_rayan_rupert.png" height="60" />
+<img src="graphics/faces/nba/MIA/4700818_vladislav_goldin.png" height="60" />
+<img src="graphics/faces/nba/MIL/4432190_andre_jackson_jr.png" height="60" />
+<img src="graphics/faces/nba/MIN/3064514_julius_randle.png" height="60" />
+<img src="graphics/faces/nba/NOP/5061589_yves_missi.png" height="60" />
+<img src="graphics/faces/nba/NYK/4702159_dillon_jones.png" height="60" />
+<img src="graphics/faces/nba/OKC/4432823_jaylin_williams.png" height="60" />
+<img src="graphics/faces/nba/ORL/4278572_jamal_cain.png" height="60" />
+<img src="graphics/faces/nba/PHI/4251_paul_george.png" height="60" />
+<img src="graphics/faces/nba/PHO/3135045_grayson_allen.png" height="60" />
+<img src="graphics/faces/nba/POR/4431736_toumani_camara.png" height="60" />
+<img src="graphics/faces/nba/SAC/3914285_drew_eubanks.png" height="60" />
+<img src="graphics/faces/nba/SAS/2489663_kelly_olynyk.png" height="60" />
+<img src="graphics/faces/nba/TOR/5107897_jonathan_mogbo.png" height="60" />
+<img src="graphics/faces/nba/UTA/4433627_keyonte_george.png" height="60" />
+<img src="graphics/faces/nba/WAS/5105592_cam_whitmore.png" height="60" />
 <!-- NBA FACES END -->
