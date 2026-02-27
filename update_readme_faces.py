@@ -21,7 +21,7 @@ for team in team_dirs:
 # Insert faces at the top, after a marker or at the top
 marker = '<!-- NBA FACES START -->'
 end_marker = '<!-- NBA FACES END -->'
-faces_md = '\n'.join([to_markdown_img(f) for f in face_paths])
+faces_md = ' '.join([to_markdown_img(f) for f in face_paths])
 faces_block = f'{marker}\n{faces_md}\n{end_marker}'
 new_content = faces_block
 
