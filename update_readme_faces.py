@@ -4,6 +4,12 @@ import random
 NBA_FACES_DIR = 'graphics/faces/nba'
 N_FACES = 10
 
+
+README_HEADER = """
+# kl-assets
+[Update our faces!](https://github.com/martinbog19/kl-assets/actions/workflows/update_readme.yml)
+"""
+
 # Convert to markdown image links
 def to_markdown_img(path, size=60):
     rel_path = path.replace('\\', '/').replace(os.path.sep, '/')
@@ -23,7 +29,8 @@ marker = '<!-- NBA FACES START -->'
 end_marker = '<!-- NBA FACES END -->'
 faces_md = ' '.join([to_markdown_img(f) for f in face_paths])
 faces_block = f'{marker}\n{faces_md}\n{end_marker}'
-new_content = faces_block
+
+new_content = README_HEADER + "\n" + faces_block
 
 with open("README.md", 'w', encoding='utf-8') as f:
     f.write(new_content)
