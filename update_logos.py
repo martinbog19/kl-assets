@@ -2,6 +2,8 @@ import requests
 import json
 import os
 
+from kl_assets.api.espn import get_endpoint
+
 
 
 leagues = {
@@ -15,9 +17,7 @@ for league, api_path in leagues.items():
 
     print(f"Processing {league.upper()}...")
 
-    url = f"http://site.api.espn.com/apis/site/v2/sports/{api_path}/teams"
-    response = requests.get(url)
-    response.raise_for_status()
+    response = get_endpoint(f"sports/{api_path}/teams")
     data = response.json()
 
     if not os.path.exists(f"graphics/logos/{league}"):

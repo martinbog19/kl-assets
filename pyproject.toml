@@ -1,0 +1,11 @@
+[project]
+name = "kl-assets"
+version = "0.1.0"
+dependencies = [
+    "pandas>=3.0",
+    "numpy>=1.26",
+    "requests"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
