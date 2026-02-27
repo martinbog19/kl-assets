@@ -1,0 +1,34 @@
+name: Update README Faces
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
+jobs:
+  update-logos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Run script to update README faces
+        run: |
+          python update_readme_faces.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update README faces"
+          git push https://x-access-token:${{ secrets.YML_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+
